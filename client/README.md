@@ -17,3 +17,4 @@ Deployment (Frontend): Deployed on Vercel
 Domain & SSL: Free domain from  duckdns.org 
 
 
+Project Link: https://full-stack-crud-pern.vercel.app
