@@ -33,7 +33,7 @@ export const saveUser = async (user: User): Promise<User> => {
   formData.append('contact', user.contact);
   formData.append('email', user.email);
   formData.append('type', user.type);
-  formData.append('password', user.password);
+
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-expect-error
   if (typeof user.photo_url !== 'string') formData.append('photo', user.photo_url as File);
