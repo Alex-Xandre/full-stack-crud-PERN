@@ -4,7 +4,7 @@ import { User } from '../types';
 import { useNavigate } from 'react-router-dom';
 
 const AddUser = () => {
-  const [formData, setFormData] = useState<Partial<User>>({ password: '123' });
+  const [formData, setFormData] = useState<Partial<User>>();
   const [photo, setPhoto] = useState<File | null | undefined>(null);
   const [photoPreview, setPhotoPreview] = useState<string | null>(null);
 
